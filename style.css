@@ -1,0 +1,22 @@
+h1 {color:rgb(26, 11, 2)}
+body {background-color: bisque;}
+#li2 {color: rgb(233, 139, 23);}
+.li3 {color: rgb(232, 25, 25);}
+.vertical-header {
+    background-color: rgb(241, 72, 5); /* Фон хедера */
+    padding: 10px; /* Відступи для естетики */
+    border-right: 3px solid rgb(139, 0, 0); /* Вертикальна лінія */
+}
+
+.vertical-header a {
+    display: flax; /*Кнопки в рядок */
+    color: rgb(38, 1, 1); /* Колір тексту кнопок */
+    text-decoration: none; /* Прибрати підкреслення */
+    margin: 5px 0; /* Відступ між кнопками */
+    padding: 5px;
+}
+
+.vertical-header a:hover {
+    background-color: rgb(228, 176, 133); /* Зміна фону при наведенні */
+    color: rgb(20, 11, 6); /* Зміна кольору тексту при наведенні */
+}
